@@ -42,3 +42,6 @@ p {
 
 .letter-spacing-10px {
   letter-spacing: 10px; }
+
+.bg-image-desktop-image-hero-1 {
+  background-image: url("../../images/desktop-image-hero-1.jpg"); }
