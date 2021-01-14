@@ -1,8 +1,37 @@
 .height-33 {
-  height: 33%; }
+  height: 33vh; }
 
-.height-67 {
-  height: 67%; }
+@media (max-width: 2000px) {
+  .height-100-md-67 {
+    height: 67vh; } }
+
+@media (max-width: 768px) {
+  .height-100-md-67 {
+    height: 100vh; } }
+
+@media (max-width: 2000px) {
+  .height-100-md-33 {
+    height: 33vh; } }
+
+@media (max-width: 768px) {
+  .height-100-md-33 {
+    height: 100vh; } }
+
+@media (max-width: 2000px) {
+  .height-50-md-auto {
+    height: auto; } }
+
+@media (max-width: 768px) {
+  .height-50-md-auto {
+    height: 50vh; } }
+
+@media (max-width: 2000px) {
+  .vh-md-100 {
+    height: 100vh; } }
+
+@media (max-width: 768px) {
+  .vh-md-100 {
+    height: auto; } }
 
 .max-width-400px {
   max-width: 400px; }

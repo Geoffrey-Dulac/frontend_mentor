@@ -1,9 +1,9 @@
 @media (max-width: 2000px) {
-  .cards {
+  .grid-1col-md-3col {
     display: grid;
     grid-template-columns: 2fr 3fr 2fr; } }
 
 @media (max-width: 768px) {
-  .cards {
+  .grid-1col-md-3col {
     display: grid;
     grid-template-columns: 1fr; } }
