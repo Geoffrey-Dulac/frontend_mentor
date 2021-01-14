@@ -1,9 +1,41 @@
 .height-33 {
-  height: 33%;
+  height: 33vh;
 }
 
-.height-67 {
-  height: 67%;
+.height-100-md-67 {
+  @media(max-width: 2000px) {
+    height: 67vh;
+  }
+  @media(max-width: 768px) {
+    height: 100vh;
+  }
+}
+
+.height-100-md-33 {
+  @media(max-width: 2000px) {
+    height: 33vh;
+  }
+  @media(max-width: 768px) {
+    height: 100vh;
+  }
+}
+
+.height-50-md-auto {
+  @media(max-width: 2000px) {
+    height: auto;
+  }
+  @media(max-width: 768px) {
+    height: 50vh;
+  }
+}
+
+.vh-md-100 {
+  @media(max-width: 2000px) {
+    height: 100vh;
+  }
+  @media(max-width: 768px) {
+    height: auto;
+  }
 }
 
 .max-width-400px {
