@@ -1,6 +1,12 @@
 .bg-image-desktop-image-hero-1 {
   background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/desktop-image-hero-1.jpg"); }
 
+.bg-image-about-dark {
+  background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/image-about-dark.jpg"); }
+
+.bg-image-about-light {
+  background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/image-about-light.jpg"); }
+
 .text-light-grey {
   color: #a1a1a1; }
 
@@ -37,8 +43,14 @@ p {
 .max-width-400px {
   max-width: 400px; }
 
+.max-width-480px {
+  max-width: 480px; }
+
 .background-size-cover {
   background-size: cover; }
 
 .letter-spacing-10px {
   letter-spacing: 10px; }
+
+.letter-spacing-6px {
+  letter-spacing: 6px; }

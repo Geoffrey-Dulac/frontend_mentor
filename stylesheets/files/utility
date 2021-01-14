@@ -3,3 +3,6 @@
 
 .letter-spacing-10px {
   letter-spacing: 10px; }
+
+.letter-spacing-6px {
+  letter-spacing: 6px; }
