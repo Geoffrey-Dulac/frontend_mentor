@@ -1,0 +1,44 @@
+.bg-image-desktop-image-hero-1 {
+  background-image: url("../../images/desktop-image-hero-1.jpg"); }
+
+.text-light-grey {
+  color: #a1a1a1; }
+
+.text-white {
+  color: white; }
+
+.text-dark-grey {
+  color: #454545; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Spartan', sans-serif; }
+
+p {
+  font-size: 12px; }
+
+.font-size-14px {
+  font-size: 14px; }
+
+.font-size-30px {
+  font-size: 30px; }
+
+.font-weight-600 {
+  font-weight: 600; }
+
+.margin-right-32px {
+  margin-right: 32px; }
+
+.height-33 {
+  height: 33%; }
+
+.height-67 {
+  height: 67%; }
+
+.max-width-400px {
+  max-width: 400px; }
+
+.background-size-cover {
+  background-size: cover; }
+
+.letter-spacing-10px {
+  letter-spacing: 10px; }
