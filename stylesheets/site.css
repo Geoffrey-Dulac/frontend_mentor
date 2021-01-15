@@ -137,7 +137,9 @@ p {
 .overlay {
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
-  opacity: 0.5; }
+  opacity: 0.5;
+  -webkit-transition: 0.5;
+  transition: 0.5; }
 
 .z-index-10 {
   z-index: 99; }
