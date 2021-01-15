@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Middleman</title>
     <link href="/frontend_mentor/stylesheets/site.css" rel="stylesheet" />
@@ -14,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   </head>
   <body>
-    <div class="vh-md-100 d-flex flex-column">
+    <div class="vh-md-100 d-flex flex-column" id="main">
   <div class="height-100-md-67 row">
     <div class="col-12 col-md-7 bg-image-desktop-image-hero-1 background-size-cover height-50-md-auto"></div>
     <div class="col-12 col-md-5 d-flex height-50-md-auto">
@@ -44,5 +43,38 @@
     <div class="bg-image-about-light background-size-cover height-50-md-auto"></div>
   </div>
 </div>
+    <div id="navbar" class="z-index-10 py-4 margin-left-top-auto-md-50px d-flex flex-row-reverse flex-md-row w-100 w-md-auto justify-content-end justify-content-md-start align-items-center position-fixed top-0">
+  <img src="images/logo.svg" alt="logo" class="margin-right-32px centered" id="logo">
+  <div class="d-flex d-md-block">
+    <img src="images/icon-hamburger.svg" alt="icon-hamburger" class="d-md-none align-baseline margin-left-15px" id="hamburger">
+    <ul class="d-none d-md-flex mb-0 lh-1">
+      <li class="no-list-style-type">
+        <a href="index.html" class="text-decoration-none text-white margin-right-32px">Home</a>
+      </li>
+      <li class="no-list-style-type">
+        <a href="contact.html" class="text-decoration-none text-white margin-right-32px">Contact</a>
+      </li>
+      <li class="no-list-style-type">
+        <a href="video.html" class="text-decoration-none text-white">Video</a>
+      </li>
+    </ul>
+
+    <ul class="d-none d-flex mb-0 lh-1 margin-left-20px" id="menu-list">
+      <li class="no-list-style-type">
+        <a href="index.html" class="font-size-12px text-decoration-none text-white margin-right-32px">Home</a>
+      </li>
+      <li class="no-list-style-type">
+        <a href="contact.html" class="font-size-12px text-decoration-none text-white margin-right-32px">Contact</a>
+      </li>
+      <li class="no-list-style-type">
+        <a href="video.html" class="font-size-12px text-decoration-none text-white">Video</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
   </body>
 </html>

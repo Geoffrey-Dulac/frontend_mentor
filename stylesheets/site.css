@@ -30,10 +30,16 @@
 .text-dark-grey {
   color: #454545; }
 
+.text-black {
+  color: black; }
+
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Spartan', sans-serif; }
 
 p {
+  font-size: 12px; }
+
+.font-size-12px {
   font-size: 12px; }
 
 .font-size-14px {
@@ -44,6 +50,20 @@ p {
 
 .font-weight-600 {
   font-weight: 600; }
+
+.margin-left-15px {
+  margin-left: 15px; }
+
+.margin-left-20px {
+  margin-left: 20px; }
+
+@media (max-width: 2000px) {
+  .margin-left-top-auto-md-50px {
+    margin: 50px auto auto 50px; } }
+
+@media (max-width: 768px) {
+  .margin-left-top-auto-md-50px {
+    margin: auto; } }
 
 .margin-right-32px {
   margin-right: 32px; }
@@ -92,8 +112,32 @@ p {
 .background-size-cover {
   background-size: cover; }
 
+.background-white {
+  background-color: white; }
+
+@media (max-width: 2000px) {
+  .centered {
+    position: auto;
+    left: 0%; } }
+
+@media (max-width: 768px) {
+  .centered {
+    position: fixed;
+    left: 40%; } }
+
 .letter-spacing-10px {
   letter-spacing: 10px; }
 
 .letter-spacing-6px {
   letter-spacing: 6px; }
+
+.no-list-style-type {
+  list-style-type: none; }
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  opacity: 0.5; }
+
+.z-index-10 {
+  z-index: 99; }

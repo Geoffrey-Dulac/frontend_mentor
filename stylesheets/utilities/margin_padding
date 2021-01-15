@@ -1,2 +1,16 @@
+.margin-left-15px {
+  margin-left: 15px; }
+
+.margin-left-20px {
+  margin-left: 20px; }
+
+@media (max-width: 2000px) {
+  .margin-left-top-auto-md-50px {
+    margin: 50px auto auto 50px; } }
+
+@media (max-width: 768px) {
+  .margin-left-top-auto-md-50px {
+    margin: auto; } }
+
 .margin-right-32px {
   margin-right: 32px; }

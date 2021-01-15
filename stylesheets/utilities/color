@@ -6,3 +6,6 @@
 
 .text-dark-grey {
   color: #454545; }
+
+.text-black {
+  color: black; }
