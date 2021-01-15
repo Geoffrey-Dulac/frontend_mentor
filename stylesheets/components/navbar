@@ -1,0 +1,9 @@
+@media (max-width: 2000px) {
+  .centered {
+    position: auto;
+    left: 0%; } }
+
+@media (max-width: 768px) {
+  .centered {
+    position: fixed;
+    left: 40%; } }

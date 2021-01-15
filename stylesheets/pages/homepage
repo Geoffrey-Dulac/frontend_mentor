@@ -1,4 +1,11 @@
-/* GREY HOVER FOR "SHOP NOW" + ARROW */
+/* OVERLAY ONCE MENU CLICKED */
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  opacity: 0.5;
+  transition: 0.5; }
+
+/* GREY HOVER FOR "SHOP NOW" + ARROW AND DOUBLE-ARROWS */
 .fill-grey-on-hover:hover h3 {
   color: #a1a1a1;
   cursor: pointer; }
@@ -6,3 +13,11 @@
 .fill-grey-on-hover:hover svg {
   cursor: pointer;
   fill: #a1a1a1; }
+
+.background-darkgrey-on-hover:hover {
+  background-color: #454545;
+  cursor: pointer; }
+
+.fill-darkgrey-on-hover:hover svg {
+  cursor: pointer;
+  fill: #454545; }
