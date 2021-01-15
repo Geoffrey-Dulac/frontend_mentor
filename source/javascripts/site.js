@@ -5,7 +5,7 @@ let logo;
 
 function handleClickOnHamburger() {
   if (!main.classList.contains("overlay")) {
-    hamburger.src = "http://netrestore-985aebdc7810.local:4567/images/icon-close.svg";
+    document.getElementById("hamburgerDiv").innerHTML = '<img src="images/icon-close.svg" alt="icon-hamburger" class="d-md-none align-baseline margin-left-15px" id="hamburger">';
     main.classList.add("overlay");
     logo.classList.add('d-none');
     navbar.classList.add("background-white");
@@ -16,7 +16,7 @@ function handleClickOnHamburger() {
       item.classList.remove("text-white");
     }
   } else {
-    hamburger.src = "http://netrestore-985aebdc7810.local:4567/images/icon-hamburger.svg";
+    document.getElementById("hamburgerDiv").innerHTML = '<img src="images/icon-hamburger.svg" alt="icon-hamburger" class="d-md-none align-baseline margin-left-15px" id="hamburger">';
     main.classList.remove("overlay");
     logo.classList.remove('d-none');
     navbar.classList.remove("background-white");
@@ -30,7 +30,7 @@ function handleClickOnHamburger() {
 }
  
 document.addEventListener("DOMContentLoaded", function () {
-  hamburgerBtn = document.getElementById("hamburger");
+  hamburgerBtn = document.getElementById("hamburgerDiv");
   logo = document.getElementById("logo");
   main = document.getElementById("main");
   navbar = document.getElementById("navbar");
