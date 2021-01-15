@@ -10,6 +10,10 @@
   background-color: black;
 }
 
+.border-radius-10px {
+  border-radius: 5px;
+}
+
 .fill-black {
   fill: #000;
 }
@@ -24,4 +28,8 @@
 
 .no-list-style-type {
   list-style-type: none;
+}
+
+.outline-none {
+  outline: none;
 }
