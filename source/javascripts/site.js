@@ -4,18 +4,7 @@ let navbar;
 let logo;
 
 function handleClickOnHamburger() {
-  if (!main.classList.contains("overlay")) {
-    document.getElementById("hamburgerDiv").innerHTML = '<img src="images/icon-close.svg" alt="icon-hamburger" class="d-md-none align-baseline margin-left-15px" id="hamburger">';
-    main.classList.add("overlay");
-    logo.classList.add('d-none');
-    navbar.classList.add("background-white");
-    document.getElementById("menu-list").classList.remove("d-none");
-    const as = document.getElementById("menu-list").getElementsByTagName('a');
-    for (let item of as) {
-      item.classList.add("text-black");
-      item.classList.remove("text-white");
-    }
-  } else {
+  if (main.classList.contains("overlay")) {
     document.getElementById("hamburgerDiv").innerHTML = '<img src="images/icon-hamburger.svg" alt="icon-hamburger" class="d-md-none align-baseline margin-left-15px" id="hamburger">';
     main.classList.remove("overlay");
     logo.classList.remove('d-none');
@@ -25,6 +14,17 @@ function handleClickOnHamburger() {
     for (let item of as) {
       item.classList.remove("text-black");
       item.classList.add("text-white");
+    }
+  } else {
+    document.getElementById("hamburgerDiv").innerHTML = '<img src="images/icon-close.svg" alt="icon-hamburger" class="d-md-none align-baseline margin-left-15px" id="hamburger">';
+    main.classList.add("overlay");
+    logo.classList.add('d-none');
+    navbar.classList.add("background-white");
+    document.getElementById("menu-list").classList.remove("d-none");
+    const as = document.getElementById("menu-list").getElementsByTagName('a');
+    for (let item of as) {
+      item.classList.add("text-black");
+      item.classList.remove("text-white");
     }
   }
 }
