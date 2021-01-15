@@ -14,7 +14,9 @@
     <%= favicon_tag 'images/favicon-32x32.png' %>
   </head>
   <body>
-    <%= yield %>
-    <%= partial "navbar" %>
+    <div id="main">
+      <%= yield %>
+      <%= partial "navbar" %>
+    </div>
   </body>
 </html>
