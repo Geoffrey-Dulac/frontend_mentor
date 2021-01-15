@@ -1,3 +1,11 @@
+.form-button {
+  color: white;
+  border: none;
+  background-color: black;
+  padding: 10px 15px; }
+  .form-button:hover {
+    background-color: #454545; }
+
 @media (max-width: 2000px) {
   .grid-1col-md-3col {
     display: -ms-grid;
@@ -49,6 +57,12 @@
 
 .bg-image-desktop-image-hero-1 {
   background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/desktop-image-hero-1.jpg"); }
+
+.bg-image-desktop-image-hero-2 {
+  background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/desktop-image-hero-2.jpg"); }
+
+.bg-image-desktop-image-hero-3 {
+  background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/desktop-image-hero-3.jpg"); }
 
 .bg-image-about-dark {
   background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/image-about-dark.jpg"); }
@@ -106,8 +120,22 @@ p {
 .height-33 {
   height: 33vh; }
 
+.height-30px {
+  height: 30px; }
+
 .height-60px {
   height: 60px; }
+
+.height-75px {
+  height: 75px; }
+
+@media (max-width: 2000px) {
+  .height-65-md-55 {
+    height: 55vh; } }
+
+@media (max-width: 768px) {
+  .height-65-md-55 {
+    height: 65vh; } }
 
 @media (max-width: 2000px) {
   .height-100-md-67 {
@@ -115,6 +143,14 @@ p {
 
 @media (max-width: 768px) {
   .height-100-md-67 {
+    height: 100vh; } }
+
+@media (max-width: 2000px) {
+  .height-100-md-65 {
+    height: 65vh; } }
+
+@media (max-width: 768px) {
+  .height-100-md-65 {
     height: 100vh; } }
 
 @media (max-width: 2000px) {
@@ -159,6 +195,9 @@ p {
 .background-black {
   background-color: black; }
 
+.border-radius-10px {
+  border-radius: 5px; }
+
 .fill-black {
   fill: #000; }
 
@@ -170,3 +209,6 @@ p {
 
 .no-list-style-type {
   list-style-type: none; }
+
+.outline-none {
+  outline: none; }

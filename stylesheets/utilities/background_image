@@ -1,6 +1,12 @@
 .bg-image-desktop-image-hero-1 {
   background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/desktop-image-hero-1.jpg"); }
 
+.bg-image-desktop-image-hero-2 {
+  background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/desktop-image-hero-2.jpg"); }
+
+.bg-image-desktop-image-hero-3 {
+  background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/desktop-image-hero-3.jpg"); }
+
 .bg-image-about-dark {
   background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/image-about-dark.jpg"); }
 
