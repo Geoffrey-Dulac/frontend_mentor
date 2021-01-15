@@ -5,6 +5,7 @@ let logo;
 let form;
 let buttonForm;
 let statusForm;
+let status;
 
 function handleClickOnHamburger() {
   if (main.classList.contains("overlay")) {
@@ -34,8 +35,8 @@ function handleClickOnHamburger() {
 
 function success() {
   form.reset();
-  button.style = "display: none ";
-  status.innerHTML = "Thanks!";
+  buttonForm.style = "display: none ";
+  status.innerHTML = "Thanks for your message!";
 }
 
 function error() {
@@ -62,7 +63,6 @@ document.addEventListener("DOMContentLoaded", function () {
   logo = document.getElementById("logo");
   main = document.getElementById("main");
   navbar = document.getElementById("navbar");
-  form = document.getElementById("my-form");
   form = document.getElementById("my-form");
   buttonForm = document.getElementById("my-form-button");
   status = document.getElementById("my-form-status");
