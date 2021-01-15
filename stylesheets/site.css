@@ -12,6 +12,15 @@
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr; } }
 
+/* GREY HOVER FOR "SHOP NOW" + ARROW */
+.fill-grey-on-hover:hover h3 {
+  color: #a1a1a1;
+  cursor: pointer; }
+
+.fill-grey-on-hover:hover svg {
+  cursor: pointer;
+  fill: #a1a1a1; }
+
 .bg-image-desktop-image-hero-1 {
   background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/desktop-image-hero-1.jpg"); }
 
@@ -141,5 +150,13 @@ p {
   -webkit-transition: 0.5;
   transition: 0.5; }
 
-.z-index-10 {
-  z-index: 99; }
+.fill-grey-on-hover:hover h3 {
+  color: #a1a1a1;
+  cursor: pointer; }
+
+.fill-grey-on-hover:hover svg {
+  cursor: pointer;
+  fill: #a1a1a1; }
+
+.fill-black {
+  fill: #000; }

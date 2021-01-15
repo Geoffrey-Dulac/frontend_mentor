@@ -1,0 +1,8 @@
+/* GREY HOVER FOR "SHOP NOW" + ARROW */
+.fill-grey-on-hover:hover h3 {
+  color: #a1a1a1;
+  cursor: pointer; }
+
+.fill-grey-on-hover:hover svg {
+  cursor: pointer;
+  fill: #a1a1a1; }

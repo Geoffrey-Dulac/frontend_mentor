@@ -29,5 +29,13 @@
   opacity: 0.5;
   transition: 0.5; }
 
-.z-index-10 {
-  z-index: 99; }
+.fill-grey-on-hover:hover h3 {
+  color: #a1a1a1;
+  cursor: pointer; }
+
+.fill-grey-on-hover:hover svg {
+  cursor: pointer;
+  fill: #a1a1a1; }
+
+.fill-black {
+  fill: #000; }

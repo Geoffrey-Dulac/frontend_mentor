@@ -6,16 +6,16 @@
     </div>
     <ul class="d-none d-md-flex mb-0 lh-1">
       <li class="no-list-style-type">
-        <a href="index.html" class="text-decoration-none text-white margin-right-32px">Home</a>
+        <a href="index.html" class="menu-item-desktop text-decoration-none text-white margin-right-32px">Home</a>
       </li>
       <li class="no-list-style-type">
-        <a href="contact.html" class="text-decoration-none text-white margin-right-32px">Contact</a>
+        <a href="contact.html" class="menu-item-desktop text-decoration-none text-white margin-right-32px">Contact</a>
       </li>
       <li class="no-list-style-type">
-        <a href="video.html" class="text-decoration-none text-white">Video</a>
+        <a href="video.html" class="menu-item-desktop text-decoration-none text-white">Video</a>
       </li>
     </ul>
-    
+
     <ul class="d-none d-flex mb-0 lh-1 margin-left-20px" id="menu-list">
       <li class="no-list-style-type">
         <a href="index.html" class="font-size-12px text-decoration-none text-white margin-right-32px">Home</a>
@@ -29,6 +29,8 @@
     </ul>
   </div>
 </div>
+
+<span class="target"></span>
 
 
 
