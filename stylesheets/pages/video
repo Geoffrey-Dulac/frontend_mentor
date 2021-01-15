@@ -1,0 +1,15 @@
+@media (max-width: 2000px) {
+  .width-video {
+    width: 500px; } }
+
+@media (max-width: 500px) {
+  .width-video {
+    width: 450px; } }
+
+@media (max-width: 450px) {
+  .width-video {
+    width: 400px; } }
+
+@media (max-width: 400px) {
+  .width-video {
+    width: 375px; } }
