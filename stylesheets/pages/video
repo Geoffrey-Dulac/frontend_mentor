@@ -1,6 +1,6 @@
 @media (max-width: 2000px) {
   .width-video {
-    width: 500px; } }
+    width: 505px; } }
 
 @media (max-width: 500px) {
   .width-video {

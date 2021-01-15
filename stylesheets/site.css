@@ -55,6 +55,22 @@
   cursor: pointer;
   fill: #454545; }
 
+@media (max-width: 2000px) {
+  .width-video {
+    width: 505px; } }
+
+@media (max-width: 500px) {
+  .width-video {
+    width: 450px; } }
+
+@media (max-width: 450px) {
+  .width-video {
+    width: 400px; } }
+
+@media (max-width: 400px) {
+  .width-video {
+    width: 375px; } }
+
 .bg-image-desktop-image-hero-1 {
   background-image: url("https://geoffrey-dulac.github.io/frontend_mentor/images/desktop-image-hero-1.jpg"); }
 
