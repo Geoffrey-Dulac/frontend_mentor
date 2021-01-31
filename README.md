@@ -14,3 +14,6 @@ The only script is for the AJAX contact form and the navbar. It deserves some re
 ## CSS
 
 As much as possible i tried to use bootstrap classes, to keep .css files very clean.
+<br>
+<br>
+<i>January 2021</i>
