@@ -2,6 +2,9 @@
 
 For a company, i passed this short integration test : 1.5 day of work.<br>
 Meet me @ : https://geoffrey-dulac.github.io/frontend_mentor/
+<br>
+<br>
+<i>January 2021</i>
 
 ## Navbar
 
@@ -14,6 +17,4 @@ The only script is for the AJAX contact form and the navbar. It deserves some re
 ## CSS
 
 As much as possible i tried to use bootstrap classes, to keep .css files very clean.
-<br>
-<br>
-<i>January 2021</i>
+
